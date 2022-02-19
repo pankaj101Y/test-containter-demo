@@ -1,0 +1,7 @@
+create table customer
+(
+    id         int8 not null,
+    first_name varchar(255),
+    last_name  varchar(255),
+    primary key (id)
+);
